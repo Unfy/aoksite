@@ -19,15 +19,10 @@ h1{
 
 
 
-@media only screen and (min-device-width: 480px){
-	h1{
-		padding: auto;
+@media screen and (max-width: 767px) {
+	.p-12 h1{
+		padding: 0px;
 	}
+
 }
 
-@media only screen and (min-device-width: 768px){
-	h1{
-		padding:auto;
-		font-size: 20%;
-	}
-}
